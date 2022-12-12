@@ -8,12 +8,11 @@ namespace StackAndQueue
 {
     internal class Node
     {
-        internal readonly string value;
-        public int data;
+        public int value;
         public Node next;
-        public Node(int data)
+        public Node(int value)
         {
-            this.data = data;
+            this.value = value;
         }
     }
 }
