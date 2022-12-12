@@ -8,6 +8,7 @@ namespace StackAndQueue
 {
     internal class Node
     {
+        internal readonly string value;
         public int data;
         public Node next;
         public Node(int data)
